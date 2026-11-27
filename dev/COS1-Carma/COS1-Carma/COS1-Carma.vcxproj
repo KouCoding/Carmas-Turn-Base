@@ -139,7 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Gyun.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tribe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gyun.h" />
+    <ClInclude Include="GrandHelper.h" />
+    <ClInclude Include="Tribe.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
